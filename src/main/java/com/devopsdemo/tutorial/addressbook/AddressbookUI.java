@@ -43,7 +43,7 @@ public class AddressbookUI extends UI {
     /// ContactForm is an example of a custom component class
     ContactForm contactForm = new ContactForm();
 
-    // ContactService is a in-memory mock DAO that mimics
+    /// ContactService is a in-memory mock DAO that mimics
     // a real-world datasource. Typically implemented for
     // example as EJB or Spring Data based service.
     ContactService service = ContactService.createDemoService();
